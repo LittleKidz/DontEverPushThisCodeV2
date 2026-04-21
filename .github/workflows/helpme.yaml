@@ -146,6 +146,7 @@ jobs:
       #          Hint: `npm install` or `npm ci`
       - name: Install dependencies
         run: npm install
+        
       # OWASP Dependency-Check is a popular open-source tool that scans your dependencies for known vulnerabilities. It can output results in SARIF format for GitHub Security tab integration, as well as HTML for human-readable reports.
       - name: Depcheck
         uses: dependency-check/Dependency-Check_Action@main
